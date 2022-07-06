@@ -1,3 +1,5 @@
 # HappyBirthdayJuhyun
 
-<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp 
+<div style="text-aligin: center;">
+  <h2>My first web project for gf sir.</h2>
+</div>
