@@ -1,0 +1,14 @@
+.wrap {
+    text-align: center;
+}
+
+.wrap .center {
+    border-bottom:black solid 1px;
+}
+
+#logo {
+    background-image: url("../image/logo.png");
+    padding: 7rem;
+    display: inline-block;
+    background-size: 100%;
+}

@@ -1,0 +1,62 @@
+@keyframes rain {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100% {
+        background-position: 400px 800px, 300px 300px, 200px 200px;
+    }
+}
+
+body {
+    background-image: url("../image/juju.jpg");
+    animation: rain 40s linear infinite;
+    background-color: black;
+}
+
+.wrap {
+    text-align: center;
+}
+
+.wrap .wrapbox {
+    display: inline-block;
+}
+
+#cake {
+    user-select: none;
+    cursor: pointer;
+    font-size: 500%;
+}
+
+.fadein {
+    color: white;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20%;
+    border-radius: 3rem;
+    border-width: 1002px;
+    padding: 2rem;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    background-color:rgb(255, 107, 81);
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 1s;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color:rgb(255, 67, 67);
+}
+
+#blackscreen {
+    margin-top: -1%;
+    margin-left: -1%;
+    width: 101%;
+    height: 101%;
+    position: fixed;
+    background-color: black;
+    opacity: 0.8;
+}
